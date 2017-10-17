@@ -1,6 +1,6 @@
 
 html{
-  background-color:#011A27;
+  background-color:#CB0000;
   background-blend-mode: multiply;
   margin:0;
   padding:0;
@@ -12,16 +12,34 @@ head{
   border-color: #FDF6F6;
 }
 
-body{
-  background-color:#F0810F;
+.index body{
+  background-color:#B3DBC0;
   background-blend-mode: multiply;
 
   margin:0;
   padding:0;
-  border-left: 50px solid;
+  border-left: 100px solid;
 
 
-  border-left-color: #063852
+  border-left-color: #2F4F4F;
+
+}
+.about body{
+  background-color: #C0C0C0;
+  background-blend-mode: multiply;
+  margin:0;
+  padding:0;
+  border-left: 100px solid;
+border-left-color: #2F4F4F;
+}
+
+
+.about footer{
+  background-color:#CB0000;
+  border-color: #021C1E;
+  border-color: #2F4F4F;
+  border-top: 40px solid;
+  border-top-color: #021C1E;
 
 }
 html.about{
@@ -32,8 +50,70 @@ html.about{
   padding:0;
   border-left: 50px solid;
   border-right: 40px solid;
-  border-right-color: #E6DF44;
-  border-left-color: #063852
+  border-right-color: #C0C0C0;
+  border-left-color: #FFA500;
+
+  border-left-color: #021C1E;
+
+}
+
+html.whatido{
+  background-color: #232122;
+
+}
+.whatido body{
+  background-color:#DDDEDE;
+  border-left:100px solid;
+  border-right:100px solid;
+border-left-color: #232122;
+border-right-color:#232122;
+
+
+}
+.whatido footer{
+  border-top: 20px solid;
+  border-top-color: #C0C0C0;
+
+  padding:4em;
+  margin-top: 12em;
+  text-align: center;
+  background-color: #7BA4A8;
+  border-left: 40px solid;
+  border-right: 40px solid;
+  border-left-color:#232122;
+  border-right-color: #232122;
+  margin-bottom:0;
+  clear:both;
+
+}
+.whatido h1{
+  color:#333366;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color:#ddd;
+  text-decoration: none;
+  text-indent: inherit;
+
+  position: relative;
+
+  letter-spacing: 5px;
+  text-align: center;
+  z-index: 1;
+
+}
+html .home{
+  background-color: #333333;
+
+
+}
+.home body{
+  background-color: #CC0000;
+
+
+}
+.home footer{
+
 }
 }
 header {
@@ -42,8 +122,21 @@ header {
     border: 3px solid;
     border-color: #FDF6F6;
 
-}
 
+}
+html .contacts{
+  background-color: #F62A00;
+  margin:0;
+  padding:0;
+}
+ .contacts footer{
+background-color: #1E656D;
+margin:0;
+clear:both;
+border-right: 0;
+border-left: 0;
+border-top: 0;
+}
 footer{
   border-top: 2px solid;
   border-color: #32CD32;
@@ -59,15 +152,17 @@ footer{
 }
 
 h1{
-  font-family: Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  opacity: inherit;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color:#ddd;
+  text-decoration: none;
+  text-indent: inherit;
+
+  position: relative;
+
+  letter-spacing: 5px;
   text-align: center;
-  text-shadow: #FFFF00;
-  text-shadow: 5px;
-  text-transform: uppercase;
-  text-decoration-color: #BC8F8F;
 
 }
 h2{
@@ -87,6 +182,18 @@ h2{
   position:relative;
   left:20px;
   top:-20px;
+
+.solia{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  color:#ddd;
+  text-decoration: none;
+  text-indent: inherit;
+
+  position: relative;
+
+  letter-spacing: 5px;
+}
 
 
 }
@@ -152,7 +259,7 @@ button{
   left:0px;
 
 
-  background-color: #32CD32;
+  background-color: #50312F;
   overflow-y: visible;
 
 }
@@ -160,34 +267,59 @@ button{
   float:right;
   width:600px;
   position:relative;
-  padding:100;
-  left:150px;
-  background-color:#FFA500;
+  padding:200px;
+  left:200px;
+  background-color:#CB0000;
   z-index: 1;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:lighter;
+  font-size:20px;
 }
 .col3{
   float:left;
   width: 660px;
   height:500px;
-background-color: #D8BFD8;
-  background-size: 660px 500px;
+background-color: #EAD39C;
+  background-size: 650px 550px;
     background-repeat:no-repeat;
-    background-image: linear-gradient(to right, black 0%, white 100%), url('w3css.gif');
+    background-image: linear-gradient(to left, black 0%, white 100%), url('w3css.gif');
     background-blend-mode: overlay;
-    border: 10px solid #D8BFD8;
-    padding:10px;
+    border: 50px  solid #D8BFD8;
+    border-top-color: #662225;
+    border-left: 2px;
+    border-bottom:#ddd;
+    border-bottom-color: #333333;
+
+    border-right-color: #063852;
+
+
     background-clip: content-box;
+    z-index:1;
 
 }
 .col4{
-  float: right;
+  float:right;
   width: 660px;
   height:500px;
-  background-color:#FFA500;
-  background-size: 660px 500px;
+background-color: #E4EA8C;
+  background-size: 650px 550px;
     background-repeat:no-repeat;
-    background-image: linear-gradient(to right, black 0%, white 100%), url('w3css.gif');
+    background-image: linear-gradient(to left, black 0%, white 100%), url('w3css.gif');
     background-blend-mode: overlay;
+    border: 90px  solid #D8BFD8;
+    border-top-color: #E6DF44;
+
+    border-bottom: 20px;
+    border-left: 2px;
+
+border-right-color:#F2C057;
+
+
+    background-clip: content-box;
+    z-index:1;
+    position:relative;
+    right:50px;
+
 
 }
 .col5{
@@ -195,6 +327,10 @@ background-color: #D8BFD8;
   width: 1320px;
   height:300px;
   background-color:#FFA500;
+
+  border-left: 20px;
+  border-top-color:#ffbf80;
+  border-left-color:#663300;
 
 }
 
@@ -228,22 +364,26 @@ background-color: #D8BFD8;
     font-weight: bolder;
     text-decoration: none;
 }
-
+.int{
+  text-decoration: none;
+  color:inherit;
+}
 
 .a3{
   font-family: Avantgarde, sans-serif;
-  color:#FFD700;
+  color:#E7552C;
   font-size: 150px;
   text-decoration:underline overline;
   text-shadow: #32CD32;
   text-shadow: #00FA9A;
-  text-align:center;
+  position:relative;
+  right:500px;
 }
 
 .a1{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: bold;
-  color:#fff;
+  color:#5CC5EF;
   text-decoration: none;
   text-indent: inherit;
   position:fixed;
@@ -254,8 +394,8 @@ background-color: #D8BFD8;
 
   border: 0 none;
   border-radius: 10px 10px 10px 10px;
-  color: #FFFFFF;
-  background-color: #CF3721;
+  color: #00CFFA;
+  background-color: #FF0038;
   cursor: pointer;
   display: block;
   font-family: 'Source Sans Pro', sans-serif;
@@ -265,14 +405,18 @@ background-color: #D8BFD8;
   text-align: center;
   margin: 0 auto;
   padding: 10px 10px;
+
   margin-top: 15px;
   text-transform: none;
   width: 100px;
+  p
+
 }
 .a2{
   font-family: 'Alegreya Sans SC', sans-serif;
   font-weight: bold;
-  color:#ddd;
+  color:#31A9B8;
+  font-size: 50px;
   text-decoration: none;
   text-indent: inherit;
   position: relative;
@@ -281,9 +425,29 @@ background-color: #D8BFD8;
   letter-spacing: 5px;
 
 }
+.a4{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color:#31A9B8;
+  text-decoration: none;
+  text-indent: inherit;
+
+  position: relative;
+  left:230px;
+  top:px;
+  letter-spacing: 5px;
+}
+.soul{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bold;
+  color:#ddd;
+  text-decoration: none;
+  text-indent: inherit;
+}
 .strawberry{
 position:relative;
-left: 750px;
+left: 650px;
 top:-500px;
 height: 765px;
 width: 661px;
@@ -293,7 +457,7 @@ bottom: 100px;
   border: 0 none;
   border-radius: 4px 4px 4px 4px;
   color: #FFFFFF;
-  background-color: #e8ba46;
+  background-color: #BC8F8F;
   cursor: pointer;
   display: block;
   font-family: 'Source Sans Pro', sans-serif;
@@ -306,6 +470,7 @@ bottom: 100px;
   margin-top: 35px;
   text-transform: none;
   width: 100px;
+  text-decoration:none;
 }
 .map{
   position:fixed;
@@ -314,17 +479,20 @@ bottom: 100px;
   z-index: 1;
   top:80;
 }
+
 .works{
 
-  border-width: thick;
-  box-shadow: #BC8F8F;
-  border-color: #BC8F8F;
   width:330px;
   height:644,3px;
   display: inline-table;
-  background: rgba(255, 255, 255, 1);
-  image-orientation: center;
+
+  position:relative;
+left:-40px;
+  right:200px;
+  top:20px;
+  bottom: 80px;
 }
+
 .con{
   font-family: Helvetica, sans-serif;
   font-weight: 700;
@@ -341,12 +509,15 @@ bottom: 100px;
 .callme{
   position:relative;
   left:400px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:lighter;
+  font-size:20px;
 
 }
 .lt{
   font-family: Avantgarde, sans-serif;
   font-weight: bold;
-  color:#A52A2A;
+  color:#1E656D;
   font-size: 37px;
   text-shadow: #32CD32;
   text-shadow: #00FA9A;
@@ -360,6 +531,9 @@ bottom: 100px;
   text-align: center;
   left:900px;
   top: 40;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:lighter;
+  font-size:20px;
 }
 
 .hire{
@@ -384,6 +558,8 @@ div.foo{
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  position: fixed;
+  right:50px;
 }
 .letter{
   display: inline-block;
@@ -453,6 +629,11 @@ div.foo{
 .input-holder {
   position:relative;
   margin-bottom: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:lighter;
+  font-size:20px;
+  text-transform: lowercase;
+  background-color: #F1F3CE;
 }
 label {
   position: absolute;
@@ -479,4 +660,8 @@ textarea:focus + label{
 .button {
   width: 100%;
   height: 60px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:lighter;
+  font-size:20px;
+  text-transform: uppercase;
 }
