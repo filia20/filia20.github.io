@@ -276,7 +276,7 @@ button{
   font-size:20px;
 }
 .col3{
-  float:left;
+  float:right;
   width: 660px;
   height:500px;
 background-color: #EAD39C;
@@ -298,7 +298,7 @@ background-color: #EAD39C;
 
 }
 .col4{
-  float:right;
+  float:left;
   width: 660px;
   height:500px;
 background-color: #E4EA8C;
@@ -308,9 +308,10 @@ background-color: #E4EA8C;
     background-blend-mode: overlay;
     border: 90px  solid #D8BFD8;
     border-top-color: #E6DF44;
+border-bottom: 20px;
+border-left: 2px;
 
-    border-bottom: 20px;
-    border-left: 2px;
+
 
 border-right-color:#F2C057;
 
@@ -318,7 +319,7 @@ border-right-color:#F2C057;
     background-clip: content-box;
     z-index:1;
     position:relative;
-    right:50px;
+
 
 
 }
@@ -558,7 +559,7 @@ div.foo{
   width: 90%;
   margin: 0 auto;
   text-align: center;
-  position: fixed;
+  position:;
   right:50px;
 }
 .letter{
@@ -566,13 +567,15 @@ div.foo{
   font-weight: 900;
   font-size: 8em;
   margin: 0.2em;
-  position: relative;
+  position:absolute;
+
   color: #00B4F1;
   transform-style: preserve-3d;
   perspective: 400;
   z-index: 1;
 }
-.letter:before, .letter:after{
+
+ .letter:before, .letter:after{
   position:absolute;
   content: attr(data-letter);
   transform-origin: top left;
@@ -593,7 +596,7 @@ div.foo{
     rotateY(-15deg)
     rotateZ(0deg);
 }
-.letter:after{
+ .letter:after{
   color: rgba(0,0,0,.11);
   z-index:2;
   transform:
